@@ -1,0 +1,35 @@
+/* Your existing styles */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px; /* Increase the padding for the navbar */
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 30px; /* Increase the margin between links */
+  font-size: 1.2em; /* Increase the font size */
+}
+
+/* Corrected selector for link */
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2em; /* Increase the font size for all anchor elements */
+}
